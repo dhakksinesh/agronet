@@ -1,0 +1,23 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.dist/
+build/
+.eggs/
+*.egg-info/
+.stubs/
+.mypy_cache/
+.pytype/
+dmypy.json
+dmypy.sqlite
+# Runtime
+logs/
+# Generated RAG data
+data/_chunks.json
+data/_file_hashes.json
+.indexing_complete
